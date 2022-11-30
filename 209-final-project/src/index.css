@@ -1,10 +1,12 @@
 body {
   margin: 0;
+  background-color: dimgrey;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 
 code {
@@ -191,4 +193,36 @@ code {
 .react-resizable-handle-s {
   bottom: 0;
   transform: rotate(45deg);
+}
+
+.h1{
+  text-align: center;
+  color: aliceblue;
+}
+
+.div {
+  display: flex;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.subtitle h3 {
+  text-align: center;
+  color: lightgray;
+}
+
+.Plot figure{
+  margin-right: 17rem;
+  margin-left: 15rem;
+  background-color: #282c34;
+}
+
+.Plot canvas{
+  padding: 5rem 5rem 2rem 5rem;
+}
+
+
+.Plot figcaption {
+    color: aliceblue;
+    padding: 0 5rem 3rem 5rem;
 }
