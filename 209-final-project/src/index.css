@@ -212,17 +212,76 @@ code {
 }
 
 .Plot figure{
+  padding: 0 0 0 0;
   margin-right: 17rem;
   margin-left: 15rem;
   background-color: #282c34;
 }
 
-.Plot canvas{
-  padding: 5rem 5rem 2rem 5rem;
-}
-
 
 .Plot figcaption {
-    color: aliceblue;
-    padding: 0 5rem 3rem 5rem;
+    color: rgb(196, 201, 203);
+    font-weight: 500;
+    padding: 1.5rem 12rem 3rem 12rem;
+}
+
+.Plot h1 {
+  color: aliceblue;
+  padding: 2rem 0 1rem 0;
+}
+
+.Plot a {
+  color: aliceblue;
+}
+
+.Title {
+  display: flex;
+}
+
+.Title p {
+  color: rgb(161, 168, 173);
+  font-size: x-large;
+  font-weight: 700;
+  margin-right: 7rem;
+  margin-left: 7rem;
+}
+
+.Title ul {
+  list-style-type: none;
+}
+
+.Title li{
+  text-align: center;
+  margin-left: 1rem;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.Title a{
+  font-size: large;
+  color: lightskyblue;
+}
+
+.Title h2 {
+  text-align: center;
+  margin-left: 1rem;
+  color: aliceblue;
+}
+
+.TOC {
+  background-color: #282c34;
+}
+
+.TOC h3 {
+  margin: 0 22rem 0 22rem;
+}
+
+.Intro {
+  background-color: #282c34;
+}
+
+.Intro p {
+  color: rgb(161, 168, 173);
+  font-size: x-large;
+  font-weight: 700;
+  margin: 3rem 5rem 0 7rem;
 }

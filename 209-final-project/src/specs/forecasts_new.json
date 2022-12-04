@@ -1,0 +1,1111 @@
+{
+    "config": {
+        "view": {
+            "continuousWidth": 400,
+            "continuousHeight": 300
+        }
+    },
+    "hconcat": [
+        {
+            "data": {
+                "name": "data-3ae84c625da699e55795f110f936c280"
+            },
+            "mark": "bar",
+            "encoding": {
+                "color": {
+                    "field": "group",
+                    "legend": {
+                        "title": "Groups"
+                    },
+                    "type": "nominal"
+                },
+                "tooltip": [
+                    {
+                        "field": "team",
+                        "type": "nominal"
+                    },
+                    {
+                        "field": "make_round_of_16",
+                        "format": ".2f",
+                        "type": "quantitative"
+                    }
+                ],
+                "x": {
+                    "field": "make_round_of_16",
+                    "title": "Probability in round 16",
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "team",
+                    "sort": "-x",
+                    "title": null,
+                    "type": "nominal"
+                }
+            },
+            "selection": {
+                "selector120": {
+                    "type": "interval",
+                    "encodings": [
+                        "y"
+                    ]
+                }
+            },
+            "title": "Probability of teams in round 16",
+            "width": 300
+        },
+        {
+            "data": {
+                "name": "data-5ead6668941782da0429342b673b6b1f"
+            },
+            "mark": "bar",
+            "encoding": {
+                "color": {
+                    "field": "group",
+                    "legend": {
+                        "title": "Groups"
+                    },
+                    "type": "nominal"
+                },
+                "tooltip": [
+                    {
+                        "field": "team",
+                        "type": "nominal"
+                    },
+                    {
+                        "field": "make_quarters",
+                        "format": ".2f",
+                        "type": "quantitative"
+                    }
+                ],
+                "x": {
+                    "field": "make_quarters",
+                    "title": "Probability in quarters",
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "team",
+                    "sort": "-x",
+                    "title": null,
+                    "type": "nominal"
+                }
+            },
+            "selection": {
+                "selector120": {
+                    "type": "interval",
+                    "encodings": [
+                        "y"
+                    ]
+                }
+            },
+            "title": "Probability of teams in quarters",
+            "width": 300
+        },
+        {
+            "data": {
+                "name": "data-add458e3f51e3ebfbd5d5183d46079f8"
+            },
+            "mark": "bar",
+            "encoding": {
+                "color": {
+                    "field": "group",
+                    "legend": {
+                        "title": "Groups"
+                    },
+                    "type": "nominal"
+                },
+                "tooltip": [
+                    {
+                        "field": "team",
+                        "type": "nominal"
+                    },
+                    {
+                        "field": "make_semis",
+                        "format": ".2f",
+                        "type": "quantitative"
+                    }
+                ],
+                "x": {
+                    "field": "make_semis",
+                    "title": "Probability in semi_finals",
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "team",
+                    "sort": "-x",
+                    "title": null,
+                    "type": "nominal"
+                }
+            },
+            "selection": {
+                "selector120": {
+                    "type": "interval",
+                    "encodings": [
+                        "y"
+                    ]
+                }
+            },
+            "title": "Probability of teams in semi_finals",
+            "width": 300
+        },
+        {
+            "data": {
+                "name": "data-f0622875d859a733edbb47d025677fcf"
+            },
+            "mark": "bar",
+            "encoding": {
+                "color": {
+                    "field": "group",
+                    "legend": {
+                        "title": "Groups"
+                    },
+                    "type": "nominal"
+                },
+                "tooltip": [
+                    {
+                        "field": "team",
+                        "type": "nominal"
+                    },
+                    {
+                        "field": "make_final",
+                        "format": ".2f",
+                        "type": "quantitative"
+                    }
+                ],
+                "x": {
+                    "field": "make_final",
+                    "title": "Probability in finals",
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "team",
+                    "sort": "-x",
+                    "title": null,
+                    "type": "nominal"
+                }
+            },
+            "selection": {
+                "selector120": {
+                    "type": "interval",
+                    "encodings": [
+                        "y"
+                    ]
+                }
+            },
+            "title": "Probability of teams in finals",
+            "width": 300
+        }
+    ],
+    "title": {
+        "text": "FIFA World Cup Probability Winners",
+        "color": "#3E454F",
+        "font": "Ubuntu Mono",
+        "fontSize": 22,
+        "subtitle": "(Hove mouse on each team to see its probability)",
+        "subtitleColor": "#3E454F",
+        "subtitleFont": "Ubuntu Mono",
+        "subtitleFontSize": 12
+    },
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+    "datasets": {
+        "data-3ae84c625da699e55795f110f936c280": [
+            {
+                "team": "Netherlands",
+                "group": "A",
+                "spi": 83.97368,
+                "sim_wins": 2.0,
+                "sim_ties": 1.0,
+                "sim_losses": 0.0,
+                "sim_goal_diff": 4.0,
+                "goals_scored": 5.0,
+                "goals_against": 1.0,
+                "group_1": 1.0,
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.65454,
+                "make_semis": 0.31099,
+                "make_final": 0.13043,
+                "win_league": 0.06064,
+                "group16": "1"
+            },
+            {
+                "team": "Senegal",
+                "group": "A",
+                "spi": 75.46857,
+                "sim_wins": 2.0,
+                "sim_ties": 0.0,
+                "sim_losses": 1.0,
+                "sim_goal_diff": 1.0,
+                "goals_scored": 5.0,
+                "goals_against": 4.0,
+                "group_1": 0.0,
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.31609,
+                "make_semis": 0.1201,
+                "make_final": 0.04418,
+                "win_league": 0.01542,
+                "group16": "2"
+            },
+            {
+                "team": "Ecuador",
+                "group": "A",
+                "spi": 73.83944,
+                "sim_wins": 1.0,
+                "sim_ties": 1.0,
+                "sim_losses": 1.0,
+                "sim_goal_diff": 1.0,
+                "goals_scored": 4.0,
+                "goals_against": 3.0,
+                "group_1": 0.0,
+                "make_round_of_16": 0.0,
+                "make_quarters": 0.0,
+                "make_semis": 0.0,
+                "make_final": 0.0,
+                "win_league": 0.0,
+                "group16": null
+            },
+            {
+                "team": "Qatar",
+                "group": "A",
+                "spi": 48.19173,
+                "sim_wins": 0.0,
+                "sim_ties": 0.0,
+                "sim_losses": 3.0,
+                "sim_goal_diff": -6.0,
+                "goals_scored": 1.0,
+                "goals_against": 7.0,
+                "group_1": 0.0,
+                "make_round_of_16": 0.0,
+                "make_quarters": 0.0,
+                "make_semis": 0.0,
+                "make_final": 0.0,
+                "win_league": 0.0,
+                "group16": null
+            },
+            {
+                "team": "England",
+                "group": "B",
+                "spi": 86.96946,
+                "sim_wins": 2.0,
+                "sim_ties": 1.0,
+                "sim_losses": 0.0,
+                "sim_goal_diff": 7.0,
+                "goals_scored": 9.0,
+                "goals_against": 2.0,
+                "group_1": 1.0,
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.68391,
+                "make_semis": 0.36842,
+                "make_final": 0.19286,
+                "win_league": 0.09399,
+                "group16": "2"
+            },
+            {
+                "team": "USA",
+                "group": "B",
+                "spi": 73.06818,
+                "sim_wins": 1.0,
+                "sim_ties": 2.0,
+                "sim_losses": 0.0,
+                "sim_goal_diff": 1.0,
+                "goals_scored": 2.0,
+                "goals_against": 1.0,
+                "group_1": 0.0,
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.34546,
+                "make_semis": 0.11972,
+                "make_final": 0.03617,
+                "win_league": 0.01238,
+                "group16": "1"
+            },
+            {
+                "team": "Iran",
+                "group": "B",
+                "spi": 68.30861,
+                "sim_wins": 1.0,
+                "sim_ties": 0.0,
+                "sim_losses": 2.0,
+                "sim_goal_diff": -3.0,
+                "goals_scored": 4.0,
+                "goals_against": 7.0,
+                "group_1": 0.0,
+                "make_round_of_16": 0.0,
+                "make_quarters": 0.0,
+                "make_semis": 0.0,
+                "make_final": 0.0,
+                "win_league": 0.0,
+                "group16": null
+            },
+            {
+                "team": "Wales",
+                "group": "B",
+                "spi": 62.48125,
+                "sim_wins": 0.0,
+                "sim_ties": 1.0,
+                "sim_losses": 2.0,
+                "sim_goal_diff": -5.0,
+                "goals_scored": 1.0,
+                "goals_against": 6.0,
+                "group_1": 0.0,
+                "make_round_of_16": 0.0,
+                "make_quarters": 0.0,
+                "make_semis": 0.0,
+                "make_final": 0.0,
+                "win_league": 0.0,
+                "group16": null
+            },
+            {
+                "team": "Argentina",
+                "group": "C",
+                "spi": 87.98006,
+                "sim_wins": 2.0,
+                "sim_ties": 0.0,
+                "sim_losses": 1.0,
+                "sim_goal_diff": 3.0,
+                "goals_scored": 5.0,
+                "goals_against": 2.0,
+                "group_1": 1.0,
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.82673,
+                "make_semis": 0.5156,
+                "make_final": 0.24966,
+                "win_league": 0.13119,
+                "group16": "3"
+            },
+            {
+                "team": "Poland",
+                "group": "C",
+                "spi": 65.76676,
+                "sim_wins": 1.0,
+                "sim_ties": 1.0,
+                "sim_losses": 1.0,
+                "sim_goal_diff": 0.0,
+                "goals_scored": 2.0,
+                "goals_against": 2.0,
+                "group_1": 0.0,
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.18489,
+                "make_semis": 0.05025,
+                "make_final": 0.01294,
+                "win_league": 0.00331,
+                "group16": "4"
+            },
+            {
+                "team": "Mexico",
+                "group": "C",
+                "spi": 74.06856,
+                "sim_wins": 1.0,
+                "sim_ties": 1.0,
+                "sim_losses": 1.0,
+                "sim_goal_diff": -1.0,
+                "goals_scored": 2.0,
+                "goals_against": 3.0,
+                "group_1": 0.0,
+                "make_round_of_16": 0.0,
+                "make_quarters": 0.0,
+                "make_semis": 0.0,
+                "make_final": 0.0,
+                "win_league": 0.0,
+                "group16": null
+            },
+            {
+                "team": "Saudi Arabia",
+                "group": "C",
+                "spi": 60.44226,
+                "sim_wins": 1.0,
+                "sim_ties": 0.0,
+                "sim_losses": 2.0,
+                "sim_goal_diff": -2.0,
+                "goals_scored": 3.0,
+                "goals_against": 5.0,
+                "group_1": 0.0,
+                "make_round_of_16": 0.0,
+                "make_quarters": 0.0,
+                "make_semis": 0.0,
+                "make_final": 0.0,
+                "win_league": 0.0,
+                "group16": null
+            },
+            {
+                "team": "France",
+                "group": "D",
+                "spi": 88.57378,
+                "sim_wins": 2.0,
+                "sim_ties": 0.0,
+                "sim_losses": 1.0,
+                "sim_goal_diff": 3.0,
+                "goals_scored": 6.0,
+                "goals_against": 3.0,
+                "group_1": 1.0,
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.81511,
+                "make_semis": 0.46123,
+                "make_final": 0.24482,
+                "win_league": 0.12131,
+                "group16": "4"
+            },
+            {
+                "team": "Australia",
+                "group": "D",
+                "spi": 63.05051,
+                "sim_wins": 2.0,
+                "sim_ties": 0.0,
+                "sim_losses": 1.0,
+                "sim_goal_diff": -1.0,
+                "goals_scored": 3.0,
+                "goals_against": 4.0,
+                "group_1": 0.0,
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.17327,
+                "make_semis": 0.05369,
+                "make_final": 0.01129,
+                "win_league": 0.00286,
+                "group16": "3"
+            },
+            {
+                "team": "Denmark",
+                "group": "D",
+                "spi": 76.6822,
+                "sim_wins": 0.0,
+                "sim_ties": 1.0,
+                "sim_losses": 2.0,
+                "sim_goal_diff": -2.0,
+                "goals_scored": 1.0,
+                "goals_against": 3.0,
+                "group_1": 0.0,
+                "make_round_of_16": 0.0,
+                "make_quarters": 0.0,
+                "make_semis": 0.0,
+                "make_final": 0.0,
+                "win_league": 0.0,
+                "group16": null
+            },
+            {
+                "team": "Tunisia",
+                "group": "D",
+                "spi": 67.83185,
+                "sim_wins": 1.0,
+                "sim_ties": 1.0,
+                "sim_losses": 1.0,
+                "sim_goal_diff": 0.0,
+                "goals_scored": 1.0,
+                "goals_against": 1.0,
+                "group_1": 0.0,
+                "make_round_of_16": 0.0,
+                "make_quarters": 0.0,
+                "make_semis": 0.0,
+                "make_final": 0.0,
+                "win_league": 0.0,
+                "group16": null
+            },
+            {
+                "team": "Spain",
+                "group": "E",
+                "spi": 89.20054,
+                "sim_wins": 1.0,
+                "sim_ties": 1.0,
+                "sim_losses": 1.0,
+                "sim_goal_diff": 6.0,
+                "goals_scored": 9.0,
+                "goals_against": 3.0,
+                "group_1": 0.0,
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.73102,
+                "make_semis": 0.45168,
+                "make_final": 0.25872,
+                "win_league": 0.13534,
+                "group16": "6"
+            },
+            {
+                "team": "Japan",
+                "group": "E",
+                "spi": 76.1371,
+                "sim_wins": 2.0,
+                "sim_ties": 0.0,
+                "sim_losses": 1.0,
+                "sim_goal_diff": 1.0,
+                "goals_scored": 4.0,
+                "goals_against": 3.0,
+                "group_1": 1.0,
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.46011,
+                "make_semis": 0.12806,
+                "make_final": 0.05155,
+                "win_league": 0.01932,
+                "group16": "5"
+            },
+            {
+                "team": "Germany",
+                "group": "E",
+                "spi": 89.95279,
+                "sim_wins": 1.0,
+                "sim_ties": 1.0,
+                "sim_losses": 1.0,
+                "sim_goal_diff": 1.0,
+                "goals_scored": 6.0,
+                "goals_against": 5.0,
+                "group_1": 0.0,
+                "make_round_of_16": 0.0,
+                "make_quarters": 0.0,
+                "make_semis": 0.0,
+                "make_final": 0.0,
+                "win_league": 0.0,
+                "group16": null
+            },
+            {
+                "team": "Costa Rica",
+                "group": "E",
+                "spi": 52.66186,
+                "sim_wins": 1.0,
+                "sim_ties": 0.0,
+                "sim_losses": 2.0,
+                "sim_goal_diff": -8.0,
+                "goals_scored": 3.0,
+                "goals_against": 11.0,
+                "group_1": 0.0,
+                "make_round_of_16": 0.0,
+                "make_quarters": 0.0,
+                "make_semis": 0.0,
+                "make_final": 0.0,
+                "win_league": 0.0,
+                "group16": null
+            },
+            {
+                "team": "Croatia",
+                "group": "F",
+                "spi": 79.13888,
+                "sim_wins": 1.0,
+                "sim_ties": 2.0,
+                "sim_losses": 0.0,
+                "sim_goal_diff": 3.0,
+                "goals_scored": 4.0,
+                "goals_against": 1.0,
+                "group_1": 0.0,
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.53989,
+                "make_semis": 0.16169,
+                "make_final": 0.07053,
+                "win_league": 0.02849,
+                "group16": "5"
+            },
+            {
+                "team": "Morocco",
+                "group": "F",
+                "spi": 74.42499,
+                "sim_wins": 2.0,
+                "sim_ties": 1.0,
+                "sim_losses": 0.0,
+                "sim_goal_diff": 3.0,
+                "goals_scored": 4.0,
+                "goals_against": 1.0,
+                "group_1": 1.0,
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.26898,
+                "make_semis": 0.11057,
+                "make_final": 0.04279,
+                "win_league": 0.01426,
+                "group16": "6"
+            },
+            {
+                "team": "Belgium",
+                "group": "F",
+                "spi": 80.919,
+                "sim_wins": 1.0,
+                "sim_ties": 1.0,
+                "sim_losses": 1.0,
+                "sim_goal_diff": -1.0,
+                "goals_scored": 1.0,
+                "goals_against": 2.0,
+                "group_1": 0.0,
+                "make_round_of_16": 0.0,
+                "make_quarters": 0.0,
+                "make_semis": 0.0,
+                "make_final": 0.0,
+                "win_league": 0.0,
+                "group16": null
+            },
+            {
+                "team": "Canada",
+                "group": "F",
+                "spi": 71.80854,
+                "sim_wins": 0.0,
+                "sim_ties": 0.0,
+                "sim_losses": 3.0,
+                "sim_goal_diff": -5.0,
+                "goals_scored": 2.0,
+                "goals_against": 7.0,
+                "group_1": 0.0,
+                "make_round_of_16": 0.0,
+                "make_quarters": 0.0,
+                "make_semis": 0.0,
+                "make_final": 0.0,
+                "win_league": 0.0,
+                "group16": null
+            },
+            {
+                "team": "Brazil",
+                "group": "G",
+                "spi": 92.89519,
+                "sim_wins": 2.0,
+                "sim_ties": 0.0,
+                "sim_losses": 1.0,
+                "sim_goal_diff": 2.0,
+                "goals_scored": 3.0,
+                "goals_against": 1.0,
+                "group_1": 1.0,
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.82453,
+                "make_semis": 0.63086,
+                "make_final": 0.42125,
+                "win_league": 0.26399,
+                "group16": "7"
+            },
+            {
+                "team": "Switzerland",
+                "group": "G",
+                "spi": 78.51106,
+                "sim_wins": 2.0,
+                "sim_ties": 0.0,
+                "sim_losses": 1.0,
+                "sim_goal_diff": 1.0,
+                "goals_scored": 4.0,
+                "goals_against": 3.0,
+                "group_1": 0.0,
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.38688,
+                "make_semis": 0.14682,
+                "make_final": 0.05877,
+                "win_league": 0.02126,
+                "group16": "8"
+            },
+            {
+                "team": "Serbia",
+                "group": "G",
+                "spi": 73.86747,
+                "sim_wins": 0.0,
+                "sim_ties": 1.0,
+                "sim_losses": 2.0,
+                "sim_goal_diff": -3.0,
+                "goals_scored": 5.0,
+                "goals_against": 8.0,
+                "group_1": 0.0,
+                "make_round_of_16": 0.0,
+                "make_quarters": 0.0,
+                "make_semis": 0.0,
+                "make_final": 0.0,
+                "win_league": 0.0,
+                "group16": null
+            },
+            {
+                "team": "Cameroon",
+                "group": "G",
+                "spi": 66.37195,
+                "sim_wins": 1.0,
+                "sim_ties": 1.0,
+                "sim_losses": 1.0,
+                "sim_goal_diff": 0.0,
+                "goals_scored": 4.0,
+                "goals_against": 4.0,
+                "group_1": 0.0,
+                "make_round_of_16": 0.0,
+                "make_quarters": 0.0,
+                "make_semis": 0.0,
+                "make_final": 0.0,
+                "win_league": 0.0,
+                "group16": null
+            },
+            {
+                "team": "Portugal",
+                "group": "H",
+                "spi": 85.79833,
+                "sim_wins": 2.0,
+                "sim_ties": 0.0,
+                "sim_losses": 1.0,
+                "sim_goal_diff": 2.0,
+                "goals_scored": 6.0,
+                "goals_against": 4.0,
+                "group_1": 1.0,
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.61312,
+                "make_semis": 0.29093,
+                "make_final": 0.14492,
+                "win_league": 0.06613,
+                "group16": "8"
+            },
+            {
+                "team": "South Korea",
+                "group": "H",
+                "spi": 72.73674,
+                "sim_wins": 1.0,
+                "sim_ties": 1.0,
+                "sim_losses": 1.0,
+                "sim_goal_diff": 0.0,
+                "goals_scored": 4.0,
+                "goals_against": 4.0,
+                "group_1": 0.0,
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.17547,
+                "make_semis": 0.07939,
+                "make_final": 0.02912,
+                "win_league": 0.01011,
+                "group16": "7"
+            },
+            {
+                "team": "Uruguay",
+                "group": "H",
+                "spi": 79.24157,
+                "sim_wins": 1.0,
+                "sim_ties": 1.0,
+                "sim_losses": 1.0,
+                "sim_goal_diff": 0.0,
+                "goals_scored": 2.0,
+                "goals_against": 2.0,
+                "group_1": 0.0,
+                "make_round_of_16": 0.0,
+                "make_quarters": 0.0,
+                "make_semis": 0.0,
+                "make_final": 0.0,
+                "win_league": 0.0,
+                "group16": null
+            },
+            {
+                "team": "Ghana",
+                "group": "H",
+                "spi": 60.56379,
+                "sim_wins": 1.0,
+                "sim_ties": 0.0,
+                "sim_losses": 2.0,
+                "sim_goal_diff": -2.0,
+                "goals_scored": 5.0,
+                "goals_against": 7.0,
+                "group_1": 0.0,
+                "make_round_of_16": 0.0,
+                "make_quarters": 0.0,
+                "make_semis": 0.0,
+                "make_final": 0.0,
+                "win_league": 0.0,
+                "group16": null
+            }
+        ],
+        "data-5ead6668941782da0429342b673b6b1f": [
+            {
+                "index": 0,
+                "team": "Netherlands",
+                "group": "A",
+                "group16": "1",
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.65454,
+                "make_semis": 0.31099,
+                "make_final": 0.13043,
+                "win_league": 0.06064,
+                "group8": "1"
+            },
+            {
+                "index": 5,
+                "team": "USA",
+                "group": "B",
+                "group16": "1",
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.34546,
+                "make_semis": 0.11972,
+                "make_final": 0.03617,
+                "win_league": 0.01238,
+                "group8": null
+            },
+            {
+                "index": 4,
+                "team": "England",
+                "group": "B",
+                "group16": "2",
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.68391,
+                "make_semis": 0.36842,
+                "make_final": 0.19286,
+                "win_league": 0.09399,
+                "group8": "2"
+            },
+            {
+                "index": 1,
+                "team": "Senegal",
+                "group": "A",
+                "group16": "2",
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.31609,
+                "make_semis": 0.1201,
+                "make_final": 0.04418,
+                "win_league": 0.01542,
+                "group8": null
+            },
+            {
+                "index": 8,
+                "team": "Argentina",
+                "group": "C",
+                "group16": "3",
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.82673,
+                "make_semis": 0.5156,
+                "make_final": 0.24966,
+                "win_league": 0.13119,
+                "group8": "1"
+            },
+            {
+                "index": 13,
+                "team": "Australia",
+                "group": "D",
+                "group16": "3",
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.17327,
+                "make_semis": 0.05369,
+                "make_final": 0.01129,
+                "win_league": 0.00286,
+                "group8": null
+            },
+            {
+                "index": 12,
+                "team": "France",
+                "group": "D",
+                "group16": "4",
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.81511,
+                "make_semis": 0.46123,
+                "make_final": 0.24482,
+                "win_league": 0.12131,
+                "group8": "2"
+            },
+            {
+                "index": 9,
+                "team": "Poland",
+                "group": "C",
+                "group16": "4",
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.18489,
+                "make_semis": 0.05025,
+                "make_final": 0.01294,
+                "win_league": 0.00331,
+                "group8": null
+            },
+            {
+                "index": 20,
+                "team": "Croatia",
+                "group": "F",
+                "group16": "5",
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.53989,
+                "make_semis": 0.16169,
+                "make_final": 0.07053,
+                "win_league": 0.02849,
+                "group8": "3"
+            },
+            {
+                "index": 17,
+                "team": "Japan",
+                "group": "E",
+                "group16": "5",
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.46011,
+                "make_semis": 0.12806,
+                "make_final": 0.05155,
+                "win_league": 0.01932,
+                "group8": null
+            },
+            {
+                "index": 16,
+                "team": "Spain",
+                "group": "E",
+                "group16": "6",
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.73102,
+                "make_semis": 0.45168,
+                "make_final": 0.25872,
+                "win_league": 0.13534,
+                "group8": "4"
+            },
+            {
+                "index": 21,
+                "team": "Morocco",
+                "group": "F",
+                "group16": "6",
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.26898,
+                "make_semis": 0.11057,
+                "make_final": 0.04279,
+                "win_league": 0.01426,
+                "group8": null
+            },
+            {
+                "index": 24,
+                "team": "Brazil",
+                "group": "G",
+                "group16": "7",
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.82453,
+                "make_semis": 0.63086,
+                "make_final": 0.42125,
+                "win_league": 0.26399,
+                "group8": "3"
+            },
+            {
+                "index": 29,
+                "team": "South Korea",
+                "group": "H",
+                "group16": "7",
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.17547,
+                "make_semis": 0.07939,
+                "make_final": 0.02912,
+                "win_league": 0.01011,
+                "group8": null
+            },
+            {
+                "index": 28,
+                "team": "Portugal",
+                "group": "H",
+                "group16": "8",
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.61312,
+                "make_semis": 0.29093,
+                "make_final": 0.14492,
+                "win_league": 0.06613,
+                "group8": "4"
+            },
+            {
+                "index": 25,
+                "team": "Switzerland",
+                "group": "G",
+                "group16": "8",
+                "make_round_of_16": 1.0,
+                "make_quarters": 0.38688,
+                "make_semis": 0.14682,
+                "make_final": 0.05877,
+                "win_league": 0.02126,
+                "group8": null
+            }
+        ],
+        "data-add458e3f51e3ebfbd5d5183d46079f8": [
+            {
+                "index": 4,
+                "team": "Argentina",
+                "group": "C",
+                "group8": "1",
+                "make_quarters": 0.82673,
+                "make_semis": 0.5156,
+                "make_final": 0.24966,
+                "win_league": 0.13119,
+                "group4": "1"
+            },
+            {
+                "index": 0,
+                "team": "Netherlands",
+                "group": "A",
+                "group8": "1",
+                "make_quarters": 0.65454,
+                "make_semis": 0.31099,
+                "make_final": 0.13043,
+                "win_league": 0.06064,
+                "group4": null
+            },
+            {
+                "index": 6,
+                "team": "France",
+                "group": "D",
+                "group8": "2",
+                "make_quarters": 0.81511,
+                "make_semis": 0.46123,
+                "make_final": 0.24482,
+                "win_league": 0.12131,
+                "group4": "1"
+            },
+            {
+                "index": 2,
+                "team": "England",
+                "group": "B",
+                "group8": "2",
+                "make_quarters": 0.68391,
+                "make_semis": 0.36842,
+                "make_final": 0.19286,
+                "win_league": 0.09399,
+                "group4": null
+            },
+            {
+                "index": 12,
+                "team": "Brazil",
+                "group": "G",
+                "group8": "3",
+                "make_quarters": 0.82453,
+                "make_semis": 0.63086,
+                "make_final": 0.42125,
+                "win_league": 0.26399,
+                "group4": "2"
+            },
+            {
+                "index": 8,
+                "team": "Croatia",
+                "group": "F",
+                "group8": "3",
+                "make_quarters": 0.53989,
+                "make_semis": 0.16169,
+                "make_final": 0.07053,
+                "win_league": 0.02849,
+                "group4": null
+            },
+            {
+                "index": 10,
+                "team": "Spain",
+                "group": "E",
+                "group8": "4",
+                "make_quarters": 0.73102,
+                "make_semis": 0.45168,
+                "make_final": 0.25872,
+                "win_league": 0.13534,
+                "group4": "2"
+            },
+            {
+                "index": 14,
+                "team": "Portugal",
+                "group": "H",
+                "group8": "4",
+                "make_quarters": 0.61312,
+                "make_semis": 0.29093,
+                "make_final": 0.14492,
+                "win_league": 0.06613,
+                "group4": null
+            }
+        ],
+        "data-f0622875d859a733edbb47d025677fcf": [
+            {
+                "index": 0,
+                "team": "Argentina",
+                "group": "C",
+                "group4": "1",
+                "make_semis": 0.5156,
+                "make_final": 0.24966,
+                "win_league": 0.13119
+            },
+            {
+                "index": 2,
+                "team": "France",
+                "group": "D",
+                "group4": "1",
+                "make_semis": 0.46123,
+                "make_final": 0.24482,
+                "win_league": 0.12131
+            },
+            {
+                "index": 4,
+                "team": "Brazil",
+                "group": "G",
+                "group4": "2",
+                "make_semis": 0.63086,
+                "make_final": 0.42125,
+                "win_league": 0.26399
+            },
+            {
+                "index": 6,
+                "team": "Spain",
+                "group": "E",
+                "group4": "2",
+                "make_semis": 0.45168,
+                "make_final": 0.25872,
+                "win_league": 0.13534
+            }
+        ]
+    }
+}

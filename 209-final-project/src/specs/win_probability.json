@@ -1,0 +1,342 @@
+{
+    "config": {
+        "view": {
+            "continuousWidth": 400,
+            "continuousHeight": 300
+        }
+    },
+    "layer": [
+        {
+            "mark": "bar",
+            "encoding": {
+                "color": {
+                    "field": "group",
+                    "legend": {
+                        "title": "Groups"
+                    },
+                    "type": "nominal"
+                },
+                "tooltip": [
+                    {
+                        "field": "team",
+                        "type": "nominal"
+                    },
+                    {
+                        "field": "avg_win_prob",
+                        "format": ".2f",
+                        "type": "quantitative"
+                    }
+                ],
+                "x": {
+                    "field": "avg_win_prob",
+                    "stack": "zero",
+                    "title": "Winning Probability",
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "team",
+                    "sort": "-x",
+                    "title": null,
+                    "type": "nominal"
+                }
+            },
+            "selection": {
+                "selector157": {
+                    "type": "single",
+                    "on": "mouseover",
+                    "nearest": true,
+                    "empty": "none"
+                },
+                "selector158": {
+                    "type": "interval",
+                    "bind": "scales",
+                    "encodings": [
+                        "x",
+                        "y"
+                    ]
+                }
+            },
+            "width": 400
+        },
+        {
+            "mark": {
+                "type": "rule",
+                "strokeDash": [
+                    4,
+                    2
+                ]
+            },
+            "encoding": {
+                "x": {
+                    "aggregate": "mean",
+                    "field": "avg_win_prob",
+                    "type": "quantitative"
+                }
+            }
+        }
+    ],
+    "data": {
+        "name": "data-e64d3901f182a25ea3197a9aa806fd63"
+    },
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+    "datasets": {
+        "data-e64d3901f182a25ea3197a9aa806fd63": [
+            {
+                "team": "Netherlands",
+                "group": "A",
+                "fifa_rank": 10,
+                "score_rank": 9,
+                "avg_score": 83.175,
+                "avg_win_prob": 0.6582939322301025
+            },
+            {
+                "team": "Senegal",
+                "group": "A",
+                "fifa_rank": 20,
+                "score_rank": 13,
+                "avg_score": 80.425,
+                "avg_win_prob": 0.4923076923076923
+            },
+            {
+                "team": "Ecuador",
+                "group": "A",
+                "fifa_rank": 46,
+                "score_rank": 27,
+                "avg_score": 73.75,
+                "avg_win_prob": 0.37305952817503973
+            },
+            {
+                "team": "Qatar",
+                "group": "A",
+                "fifa_rank": 52,
+                "score_rank": 32,
+                "avg_score": null,
+                "avg_win_prob": 0.45397804181079865
+            },
+            {
+                "team": "England",
+                "group": "B",
+                "fifa_rank": 5,
+                "score_rank": 6,
+                "avg_score": 85.0,
+                "avg_win_prob": 0.6112596553773024
+            },
+            {
+                "team": "USA",
+                "group": "B",
+                "fifa_rank": 15,
+                "score_rank": 19,
+                "avg_score": 76.575,
+                "avg_win_prob": 0.5050401804596081
+            },
+            {
+                "team": "Wales",
+                "group": "B",
+                "fifa_rank": 18,
+                "score_rank": 23,
+                "avg_score": 75.125,
+                "avg_win_prob": 0.3831479765214705
+            },
+            {
+                "team": "IR Iran",
+                "group": "B",
+                "fifa_rank": 21,
+                "score_rank": 29,
+                "avg_score": 71.575,
+                "avg_win_prob": 0.5996359223300971
+            },
+            {
+                "team": "Argentina",
+                "group": "C",
+                "fifa_rank": 4,
+                "score_rank": 7,
+                "avg_score": 84.8,
+                "avg_win_prob": 0.5303789777473988
+            },
+            {
+                "team": "Poland",
+                "group": "C",
+                "fifa_rank": 26,
+                "score_rank": 12,
+                "avg_score": 80.675,
+                "avg_win_prob": 0.46190476190476193
+            },
+            {
+                "team": "Mexico",
+                "group": "C",
+                "fifa_rank": 9,
+                "score_rank": 18,
+                "avg_score": 79.425,
+                "avg_win_prob": 0.543344969566774
+            },
+            {
+                "team": "Saudi Arabia",
+                "group": "C",
+                "fifa_rank": 49,
+                "score_rank": 30,
+                "avg_score": 70.825,
+                "avg_win_prob": 0.5509352517985612
+            },
+            {
+                "team": "France",
+                "group": "D",
+                "fifa_rank": 3,
+                "score_rank": 1,
+                "avg_score": 86.575,
+                "avg_win_prob": 0.5986177565124933
+            },
+            {
+                "team": "Denmark",
+                "group": "D",
+                "fifa_rank": 11,
+                "score_rank": 11,
+                "avg_score": 80.77499999999999,
+                "avg_win_prob": 0.5334881320949433
+            },
+            {
+                "team": "Australia",
+                "group": "D",
+                "fifa_rank": 42,
+                "score_rank": 28,
+                "avg_score": 73.7,
+                "avg_win_prob": 0.5578147100424328
+            },
+            {
+                "team": "Tunisia",
+                "group": "D",
+                "fifa_rank": 35,
+                "score_rank": 31,
+                "avg_score": 67.9,
+                "avg_win_prob": 0.5054145369488001
+            },
+            {
+                "team": "Germany",
+                "group": "E",
+                "fifa_rank": 12,
+                "score_rank": 3,
+                "avg_score": 86.125,
+                "avg_win_prob": 0.6791383219954649
+            },
+            {
+                "team": "Spain",
+                "group": "E",
+                "fifa_rank": 7,
+                "score_rank": 4,
+                "avg_score": 85.375,
+                "avg_win_prob": 0.7072072072072073
+            },
+            {
+                "team": "Japan",
+                "group": "E",
+                "fifa_rank": 23,
+                "score_rank": 22,
+                "avg_score": 75.175,
+                "avg_win_prob": 0.5564102564102564
+            },
+            {
+                "team": "Costa Rica",
+                "group": "E",
+                "fifa_rank": 31,
+                "score_rank": 24,
+                "avg_score": 74.75,
+                "avg_win_prob": 0.45215625
+            },
+            {
+                "team": "Belgium",
+                "group": "F",
+                "fifa_rank": 2,
+                "score_rank": 5,
+                "avg_score": 85.25,
+                "avg_win_prob": 0.580981182795699
+            },
+            {
+                "team": "Morocco",
+                "group": "F",
+                "fifa_rank": 24,
+                "score_rank": 14,
+                "avg_score": 80.27499999999999,
+                "avg_win_prob": 0.5069597069597069
+            },
+            {
+                "team": "Croatia",
+                "group": "F",
+                "fifa_rank": 16,
+                "score_rank": 15,
+                "avg_score": 80.175,
+                "avg_win_prob": 0.5510204081632653
+            },
+            {
+                "team": "Canada",
+                "group": "F",
+                "fifa_rank": 38,
+                "score_rank": 26,
+                "avg_score": 74.05,
+                "avg_win_prob": 0.456989247311828
+            },
+            {
+                "team": "Brazil",
+                "group": "G",
+                "fifa_rank": 1,
+                "score_rank": 2,
+                "avg_score": 86.4,
+                "avg_win_prob": 0.6077419354838709
+            },
+            {
+                "team": "Switzerland",
+                "group": "G",
+                "fifa_rank": 14,
+                "score_rank": 16,
+                "avg_score": 79.925,
+                "avg_win_prob": 0.4838874680306905
+            },
+            {
+                "team": "Serbia",
+                "group": "G",
+                "fifa_rank": 25,
+                "score_rank": 17,
+                "avg_score": 79.47500000000001,
+                "avg_win_prob": 0.46346483704974273
+            },
+            {
+                "team": "Cameroon",
+                "group": "G",
+                "fifa_rank": 37,
+                "score_rank": 25,
+                "avg_score": 74.125,
+                "avg_win_prob": 0.49869286557598247
+            },
+            {
+                "team": "Portugal",
+                "group": "H",
+                "fifa_rank": 8,
+                "score_rank": 8,
+                "avg_score": 84.425,
+                "avg_win_prob": 0.6141509433962264
+            },
+            {
+                "team": "Uruguay",
+                "group": "H",
+                "fifa_rank": 13,
+                "score_rank": 10,
+                "avg_score": 81.375,
+                "avg_win_prob": 0.4102164709641345
+            },
+            {
+                "team": "Ghana",
+                "group": "H",
+                "fifa_rank": 60,
+                "score_rank": 20,
+                "avg_score": 75.925,
+                "avg_win_prob": 0.5013796172674677
+            },
+            {
+                "team": "Korea Republic",
+                "group": "H",
+                "fifa_rank": 29,
+                "score_rank": 21,
+                "avg_score": 75.45,
+                "avg_win_prob": 0.5033783783783784
+            }
+        ]
+    }
+}

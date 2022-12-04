@@ -258,7 +258,6 @@
   },
   "height": 250,
   "mark": "bar",
-  "title": "Final Four Appearances vs. Championships by Country",
   "transform": [
     {
       "as": [
