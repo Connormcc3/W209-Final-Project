@@ -252,7 +252,6 @@ code {
 
 .Title li{
   text-align: center;
-  margin-left: 1rem;
   padding: 0.5rem 0 0.5rem 0;
 }
 
@@ -272,7 +271,7 @@ code {
 }
 
 .TOC h3 {
-  margin: 0 22rem 0 22rem;
+  margin: 0 22rem 0 24rem;
 }
 
 .Intro {
@@ -284,4 +283,8 @@ code {
   font-size: x-large;
   font-weight: 700;
   margin: 3rem 5rem 0 7rem;
+}
+
+.Bracket iframe {
+  margin-right: 2rem;
 }

@@ -3,20 +3,12 @@ import React from 'react';
 import { VegaLite } from 'react-vega'
 import GridLayout from "react-grid-layout";
 import projectHeader from './project-header.svg';
+import bracket from './bracket.pdf'
 
-
-// FFA (Final Four Appearances)
 const FFASpec = require('./specs/final-four-appearances.json')
-
-// APS (Average Player Stats)
 const APSSpec = require('./specs/average-player-stats.json')
-
-// TSA (Team Skill Attributes)
 const plot1 = require('./specs/plot1.json')
-
-// TSR (Team Skill Ratings)
 const TSRSpec = require('./specs/team-skill-ratings.json')
-
 const coffee = require('./specs/coffee.json')
 const espresso = require('./specs/espresso.json')
 const flat = require('./specs/flat.json')
@@ -29,6 +21,7 @@ const fifa_rank = require('./specs/fifa_rank.json')
 const score_rank = require('./specs/score_rank.json')
 const general_chart = require('./specs/fifa_rank_n_avg_score.json')
 const forecasts = require('./specs/forecasts.json')
+const outliers = require('./specs/outlier_players.json')
 
 function App() {
   return (
@@ -45,6 +38,7 @@ function App() {
                 <li><a href="#AGC">Age vs. Goals Correlation</a></li>
                 <li><a href="#CGNGP">Career Goals vs. National Games Played</a></li>
                 <li><a href="#PGCGI">Player Game Count vs. Goals Identifier</a></li>
+                <li><a href="#OP">Outlier Players</a></li>
                 <li><a href="#FRAPS">FIFA Rank & Average Position Score</a></li>
                 <li><a href="#SAP">Squad Appearance Probabilities</a></li>
               </ul>
@@ -59,6 +53,9 @@ function App() {
             win each round and be crowned the 2022 World Cup champions.
             </p>
         </figure>
+      </div>
+      <div className="Bracket">
+        <iframe src={bracket} height="700" width="1200"></iframe>
       </div>
       <div className="Plot">
           <a id="PWP"></a>
@@ -119,14 +116,6 @@ function App() {
           </figure>
       </div>
       <div className="Plot">
-          <a id="CGNGP"></a>
-          <figure>
-              <h1>Career Goals vs. National Games Played</h1>
-              <VegaLite spec={flat} data={flat.datasets} />
-              <figcaption> Flat </figcaption>
-          </figure>
-      </div>
-      <div className="Plot">
           <a id="PGCGI"></a>
           <figure>
               <h1>Player Game Count vs. Goals Identifier</h1>
@@ -134,6 +123,17 @@ function App() {
               <figcaption> 
               This visualization shows the total career goals plotted against the total number of national games played for each player participating in the 2022 
               FIFA World Cup. Selecting intervals on the scatterplot will filter the below table to identify players within the selection.
+              </figcaption>
+          </figure>
+      </div>
+      <div className="Plot">
+          <a id="OP"></a>
+          <figure>
+              <h1>Outlier Players</h1>
+              <VegaLite spec={outliers} data={outliers.datasets} />
+              <figcaption> 
+                Compare the number of goals-scoring outliers on each World Cup team. An outlier is defined as a player in the 85th percentile of average goals scored 
+                per game in World Cup matches. Hover over a country’s bar with your cursor to see a list of the outlier players on that team.
               </figcaption>
           </figure>
       </div>
