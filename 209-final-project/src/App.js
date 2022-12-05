@@ -51,6 +51,9 @@ function App() {
             <br></br>
             Our goal is to allow you to analyze your team selections to make data backed predictions for who will 
             win each round and be crowned the 2022 World Cup champions.
+            <br></br>
+            <br></br>
+            * Some country and player data were not available at the time of this project creation. (TODO: Shrink)
             </p>
         </figure>
       </div>
@@ -63,21 +66,18 @@ function App() {
               <h1>Predicted Win Probability</h1>
               <VegaLite spec={win_probability} data={win_probability.datasets} />
               <figcaption>  
-              Statistics for the winning probabilities of 32 teams attending 2022 FIFA World Cup in Qatar. They are calculated
-              based on the historical data of matches that teams played. The teams having largest winning probabilities are 
-              displayed on top. Hover the mouse on each team to see its name and rank. Scroll to zoom in/out.
+              Statistics for the winning probabilities of 32 squads attending 2022 FIFA World Cup in Qatar. They are calculated
+              based on the historical data of matches won that squads played home and away. Hover the mouse on each bar to see specific counts. Scroll to zoom in/out.
               </figcaption>
           </figure>
       </div>
       <div className="Plot">
         <a id="FFA"></a>
         <figure>
-            <h1>Final Four Appearances vs. Championships by Country</h1>
+            <h1>Final Four Appearances vs. Championships</h1>
             <VegaLite spec={FFASpec} data={FFASpec.datasets} />
             <figcaption>
-               This plot shows the number of final four appearances in orange against the number of world championships actually won in blue. 
-               Consequently, only the teams who have made a final four appearance will be shown here in the graph. You can see specific counts
-               by hovering over the bars themselves!
+               Assess the number of final four appearances against world championships won. Hover the mouse on each bar to see specific counts. Scroll to zoom in/out.
             </figcaption>
         </figure>
       </div>
@@ -87,7 +87,7 @@ function App() {
               <h1>Squad Statistics</h1>
               <VegaLite spec={all2} data={mocha.datasets} />
               <figcaption> 
-                This plot shows squad statistics for goals scored, age, national games played, skill ratings, international ranking, player values 
+                Explore squad statistics for goals scored, age, national games played, skill ratings, international ranking, player values 
                 and league levels played in. These are calculated averages based on the squad data publicly available. To select a specific squad(s), 
                 hold Shift+Click on the individual country’s boxes above the chart.
               </figcaption>
@@ -99,7 +99,7 @@ function App() {
               <h1>Squad Average Skill Rating by Position</h1>
               <VegaLite spec={coffee} data={coffee.datasets} />
               <figcaption>  
-                  Here you can view the Overall Skill Rating for all 32 squads faceted by the four player positions: Goal Keeping, Forward, Midfield, 
+                  View the overall skill rating for all 32 squads faceted by the four player positions: Goalkeeper, Forward, Midfielder, 
                   and Defender. To select a specific squad(s), hold Shift+Click on the individual country’s boxes above the chart.
               </figcaption>
           </figure>
@@ -107,10 +107,10 @@ function App() {
       <div className="Plot">
           <a id="AGC"></a>
           <figure>
-              <h1>Age vs. Goals Correlation</h1>
+              <h1>Overall Skill Rating Relative to Player Performance</h1>
               <VegaLite spec={espresso} data={espresso.datasets} />
               <figcaption>  
-                This visualization allows you to compare players’ overall skill rating and total career goals per national games. Use your cursor to 
+                Compare players’ overall skill rating and total career goals per national games. Use your cursor to 
                 select areas or points of interest on the scatterplot to filter individual player information on the histogram.
               </figcaption>
           </figure>
@@ -121,7 +121,7 @@ function App() {
               <h1>Player Game Count vs. Goals Identifier</h1>
               <VegaLite spec={mocha} data={mocha.datasets} />
               <figcaption> 
-              This visualization shows the total career goals plotted against the total number of national games played for each player participating in the 2022 
+              Analyze total career goals against the total number of national games played for each player participating in the 2022 
               FIFA World Cup. Selecting intervals on the scatterplot will filter the below table to identify players within the selection.
               </figcaption>
           </figure>
@@ -140,11 +140,11 @@ function App() {
       <div className="Plot">
           <a id="FRAPS"></a>
           <figure>
-              <h1>FIFA Rank & Average Position Score</h1>
+              <h1>FIFA Rank & Average Player Position Score</h1>
               <VegaLite spec={general_chart} data={general_chart.datasets} />
               <figcaption> 
-                  Here we have the squads' FIFA ranks displayed on the left. On the right we have the squads' average position scores calculated from goalkeeper_score,
-                   defense_score, offense_score, and midfield_score.
+                  FIFA ranks are displayed on the left. Squads' average position score on the right (calculated from goalkeeper,
+                   defense, offense, and midfield scores). Hover the mouse on each bar to see the specific probabilities. Scroll to zoom in/out.
               </figcaption>
           </figure>
       </div>
@@ -154,8 +154,9 @@ function App() {
               <h1>Squad Appearance Probabilities</h1>
               <VegaLite spec={forecasts} data={forecasts.datasets} />
               <figcaption>  
-                  This plot shows the 2022 FIFA World Cup Predictions with the probability that a particular team will appear in the corresponding round 
+                  2022 FIFA World Cup Predictions with the probability that a particular team will appear in the corresponding round 
                   of the tournament. The probabilities are extracted from <a href="https://projects.fivethirtyeight.com/2022-world-cup-predictions/bracket/"> this dataset</a>.
+                  Hover the mouse on each bar to see the specific probabilities.
               </figcaption>
           </figure>
       </div>

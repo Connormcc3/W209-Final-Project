@@ -12,7 +12,7 @@
   "datasets": {
     "data-6cab110acf15c1887f3fae628e8cd65e": [
       {
-        "Champion": 2.0,
+        "Championships": 2.0,
         "Country": "Argentina",
         "Finalist": 5.0,
         "Fourth": 0.0,
@@ -21,7 +21,7 @@
         "Total F4 Appearances": 5.0
       },
       {
-        "Champion": 0.0,
+        "Championships": 0.0,
         "Country": "Austria",
         "Finalist": 0.0,
         "Fourth": 1.0,
@@ -30,7 +30,7 @@
         "Total F4 Appearances": 2.0
       },
       {
-        "Champion": 0.0,
+        "Championships": 0.0,
         "Country": "Belgium",
         "Finalist": 0.0,
         "Fourth": 1.0,
@@ -39,7 +39,7 @@
         "Total F4 Appearances": 2.0
       },
       {
-        "Champion": 5.0,
+        "Championships": 5.0,
         "Country": "Brazil",
         "Finalist": 7.0,
         "Fourth": 2.0,
@@ -48,7 +48,7 @@
         "Total F4 Appearances": 11.0
       },
       {
-        "Champion": 0.0,
+        "Championships": 0.0,
         "Country": "Bulgaria",
         "Finalist": 0.0,
         "Fourth": 1.0,
@@ -57,7 +57,7 @@
         "Total F4 Appearances": 1.0
       },
       {
-        "Champion": 0.0,
+        "Championships": 0.0,
         "Country": "Chile",
         "Finalist": 0.0,
         "Fourth": 0.0,
@@ -66,7 +66,7 @@
         "Total F4 Appearances": 1.0
       },
       {
-        "Champion": 0.0,
+        "Championships": 0.0,
         "Country": "Croatia",
         "Finalist": 1.0,
         "Fourth": 0.0,
@@ -75,7 +75,7 @@
         "Total F4 Appearances": 2.0
       },
       {
-        "Champion": 0.0,
+        "Championships": 0.0,
         "Country": "Czechoslovakia",
         "Finalist": 2.0,
         "Fourth": 0.0,
@@ -84,7 +84,7 @@
         "Total F4 Appearances": 2.0
       },
       {
-        "Champion": 1.0,
+        "Championships": 1.0,
         "Country": "England",
         "Finalist": 1.0,
         "Fourth": 2.0,
@@ -93,7 +93,7 @@
         "Total F4 Appearances": 3.0
       },
       {
-        "Champion": 2.0,
+        "Championships": 2.0,
         "Country": "France",
         "Finalist": 3.0,
         "Fourth": 1.0,
@@ -102,7 +102,7 @@
         "Total F4 Appearances": 6.0
       },
       {
-        "Champion": 4.0,
+        "Championships": 4.0,
         "Country": "Germany",
         "Finalist": 8.0,
         "Fourth": 1.0,
@@ -111,7 +111,7 @@
         "Total F4 Appearances": 13.0
       },
       {
-        "Champion": 0.0,
+        "Championships": 0.0,
         "Country": "Hungary",
         "Finalist": 2.0,
         "Fourth": 0.0,
@@ -120,7 +120,7 @@
         "Total F4 Appearances": 2.0
       },
       {
-        "Champion": 4.0,
+        "Championships": 4.0,
         "Country": "Italy",
         "Finalist": 6.0,
         "Fourth": 1.0,
@@ -129,7 +129,7 @@
         "Total F4 Appearances": 8.0
       },
       {
-        "Champion": 0.0,
+        "Championships": 0.0,
         "Country": "Korea Republic",
         "Finalist": 0.0,
         "Fourth": 1.0,
@@ -138,7 +138,7 @@
         "Total F4 Appearances": 1.0
       },
       {
-        "Champion": 0.0,
+        "Championships": 0.0,
         "Country": "Netherlands",
         "Finalist": 3.0,
         "Fourth": 1.0,
@@ -147,7 +147,7 @@
         "Total F4 Appearances": 5.0
       },
       {
-        "Champion": 0.0,
+        "Championships": 0.0,
         "Country": "Poland",
         "Finalist": 0.0,
         "Fourth": 0.0,
@@ -156,7 +156,7 @@
         "Total F4 Appearances": 2.0
       },
       {
-        "Champion": 0.0,
+        "Championships": 0.0,
         "Country": "Portugal",
         "Finalist": 0.0,
         "Fourth": 1.0,
@@ -165,7 +165,7 @@
         "Total F4 Appearances": 2.0
       },
       {
-        "Champion": 0.0,
+        "Championships": 0.0,
         "Country": "Soviet Union",
         "Finalist": 0.0,
         "Fourth": 1.0,
@@ -174,7 +174,7 @@
         "Total F4 Appearances": 1.0
       },
       {
-        "Champion": 1.0,
+        "Championships": 1.0,
         "Country": "Spain",
         "Finalist": 1.0,
         "Fourth": 1.0,
@@ -183,7 +183,7 @@
         "Total F4 Appearances": 2.0
       },
       {
-        "Champion": 0.0,
+        "Championships": 0.0,
         "Country": "Sweden",
         "Finalist": 1.0,
         "Fourth": 1.0,
@@ -192,7 +192,7 @@
         "Total F4 Appearances": 4.0
       },
       {
-        "Champion": 0.0,
+        "Championships": 0.0,
         "Country": "Turkey",
         "Finalist": 0.0,
         "Fourth": 0.0,
@@ -201,7 +201,7 @@
         "Total F4 Appearances": 1.0
       },
       {
-        "Champion": 0.0,
+        "Championships": 0.0,
         "Country": "USA",
         "Finalist": 0.0,
         "Fourth": 0.0,
@@ -210,7 +210,7 @@
         "Total F4 Appearances": 1.0
       },
       {
-        "Champion": 2.0,
+        "Championships": 2.0,
         "Country": "Uruguay",
         "Finalist": 2.0,
         "Fourth": 3.0,
@@ -219,7 +219,7 @@
         "Total F4 Appearances": 5.0
       },
       {
-        "Champion": 0.0,
+        "Championships": 0.0,
         "Country": "Yugoslavia",
         "Finalist": 0.0,
         "Fourth": 2.0,
@@ -252,7 +252,7 @@
     },
     "y": {
       "field": "stacked",
-      "title": "Final Four Appearances / Championships",
+      "title": "Final Four Appearances / Championshipsships",
       "type": "quantitative"
     }
   },
@@ -266,7 +266,7 @@
       ],
       "fold": [
         "Total F4 Appearances",
-        "Champion"
+        "Championships"
       ]
     }
   ],
